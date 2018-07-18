@@ -1,27 +1,46 @@
-from .utils import _build_block_operator 
+from .utils import _build_block_of_operators
+from .utils import _build_block_of_condition_operators
 
 def OR(*args):
     """
-    Логический OR
-    Принимает только объекты Trigger
-    Функция возвращает список условии
+    English:
+         
+    Русский:
+        Логический OR
+        Принимает только объекты Trigger
+        Функция возвращает список условии
     """
-    return _build_block_operator("OR", *args)
+    return _build_block_of_operators("OR", *args)
 
 
 def AND(*args):
     """
-    Логический AND
-    Принимает только объекты Trigger
-    Функция возвращает список условии
+    English:
+         
+    Русский:
+        Логический AND
+        Принимает только объекты Trigger
+        Функция возвращает список условии
     """   
-    return _build_block_operator("AND", *args)
+    return _build_block_of_operators("AND", *args)
 
 
 def NOT(*args):
     """
-    Логический NOT
-    Принимает только объекты Trigger
-    Функция возвращает список условии
+    English:
+         
+    Русский:
+        Логический NOT
+        Принимает только объекты Trigger
+        Функция возвращает список условии
     """ 
-    return _build_block_operator("NOT", *args)
+    return _build_block_of_operators("NOT", *args)
+
+def If(conditions = list(), *args):
+    """
+    English:
+         
+    Русский:
+        
+    """
+    return _build_block_of_condition_operators("if", conditions, *args)

@@ -1,4 +1,4 @@
-from .utils import _build_block_operator
+from .utils import _build_block_of_operators
 
 class Scope(object):
     """
@@ -12,4 +12,4 @@ class Scope(object):
         English: 
         Русский: 
         """
-        return _build_block_operator(countryTag, *args)
+        return _build_block_of_operators(countryTag, *args)
