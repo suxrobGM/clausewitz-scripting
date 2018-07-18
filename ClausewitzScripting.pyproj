@@ -5,7 +5,7 @@
     <ProjectGuid>1683520e-6a2d-490c-9645-7ed57791e8e1</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>HOI4_Modding.py</StartupFile>
+    <StartupFile>example2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,7 +25,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="HOI4_Modding.py" />
+    <Compile Include="example2.py" />
     <Compile Include="clausewitz_script\condition.py">
       <SubType>Code</SubType>
     </Compile>
@@ -38,7 +38,7 @@
     <Compile Include="clausewitz_script\event.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="examples.py">
+    <Compile Include="example1.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="clausewitz_script\newsevent.py">
