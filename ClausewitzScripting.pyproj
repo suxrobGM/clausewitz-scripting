@@ -5,7 +5,7 @@
     <ProjectGuid>1683520e-6a2d-490c-9645-7ed57791e8e1</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>example2.py</StartupFile>
+    <StartupFile>example1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="clausewitz_script\utils.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="example2.py" />
     <Compile Include="clausewitz_script\condition.py">
       <SubType>Code</SubType>
