@@ -49,7 +49,7 @@ def AND(*args):
     buffer.append("\t"+"}")
     return buffer
 
-def AND(*args):
+def NOT(*args):
     """
     Логический NOT
     Принимает только объекты Trigger
