@@ -17,7 +17,7 @@ if __name__ == '__main__':
     newState.history.stateFlags = [ "christianity" ]
     newState.history.victoryPoints = { 9620: 30 }
     newState.history.buildings = { "arms_factory": 6, "infrastructure": 4 }   
-    newState.history.effects = [ Effect.Add_Core_Of("RUS") ]
+    newState.history.effects = [ Effect.add_core_of("RUS") ]
     newState.provincies = [ 13365, 13366, 13644 ]
     newState.SetLocalisation(language="russian", key="New_State", text="Новый регион")
     newState.Build()

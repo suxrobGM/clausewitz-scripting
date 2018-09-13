@@ -23,6 +23,6 @@ class StateHistory(object):
                       'aluminium_factory':0, 
                       'chromium_factory':0, 
                       'tungsten_factory':0
-                      }
+                    }
        
         
